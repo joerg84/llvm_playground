@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="llvm_ir"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\usr\;CMake Files\..\..\..\usr\local\;CMake Files\..\..\..\usr\local\Cellar\;CMake Files\..\..\..\usr\local\Cellar\llvm\;CMake Files\..\..\..\usr\local\Cellar\llvm\9.0.1\;CMake Files\..\..\..\usr\local\Cellar\llvm\9.0.1\lib\;CMake Files\..\..\..\usr\local\Cellar\llvm\9.0.1\lib\cmake\;CMake Files\..\..\..\usr\local\Cellar\llvm\9.0.1\lib\cmake\llvm\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/jarango/llvm_ir/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/jarango/llvm_ir/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jarango/llvm_ir/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jarango/llvm_ir/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jarango/llvm_ir/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/jarango/llvm_ir/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/jarango/llvm_ir/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jarango/llvm_ir/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jarango/llvm_ir/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jarango/llvm_ir/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/jarango/llvm_ir/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/jarango/llvm_ir/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jarango/llvm_ir/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jarango/llvm_ir/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jarango/llvm_ir/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main">
+				<Option output="/Users/jarango/llvm_ir/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jarango/llvm_ir/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm/9.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/jarango/llvm_ir/cmake-build-debug/Makefile&quot;  VERBOSE=1 main"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jarango/llvm_ir/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jarango/llvm_ir/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jarango/llvm_ir/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main/fast">
+				<Option output="/Users/jarango/llvm_ir/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jarango/llvm_ir/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/llvm/9.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/jarango/llvm_ir/cmake-build-debug/Makefile&quot;  VERBOSE=1 main/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jarango/llvm_ir/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jarango/llvm_ir/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jarango/llvm_ir/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="intrinsics_gen">
+				<Option working_dir="/Users/jarango/llvm_ir/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/jarango/llvm_ir/cmake-build-debug/Makefile&quot;  VERBOSE=1 intrinsics_gen"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/jarango/llvm_ir/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/jarango/llvm_ir/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/jarango/llvm_ir/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/jarango/llvm_ir/main.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/jarango/llvm_ir/test.c">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/Users/jarango/llvm_ir/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/jarango/llvm_ir/../../../usr/local/Cellar/llvm/9.0.1/lib/cmake/llvm/LLVM-Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\Cellar\llvm\9.0.1\lib\cmake\llvm\"/>
+		</Unit>
+		<Unit filename="/Users/jarango/llvm_ir/../../../usr/local/Cellar/llvm/9.0.1/lib/cmake/llvm/LLVMConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\Cellar\llvm\9.0.1\lib\cmake\llvm\"/>
+		</Unit>
+		<Unit filename="/Users/jarango/llvm_ir/../../../usr/local/Cellar/llvm/9.0.1/lib/cmake/llvm/LLVMConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\Cellar\llvm\9.0.1\lib\cmake\llvm\"/>
+		</Unit>
+		<Unit filename="/Users/jarango/llvm_ir/../../../usr/local/Cellar/llvm/9.0.1/lib/cmake/llvm/LLVMExports-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\Cellar\llvm\9.0.1\lib\cmake\llvm\"/>
+		</Unit>
+		<Unit filename="/Users/jarango/llvm_ir/../../../usr/local/Cellar/llvm/9.0.1/lib/cmake/llvm/LLVMExports.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\usr\local\Cellar\llvm\9.0.1\lib\cmake\llvm\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

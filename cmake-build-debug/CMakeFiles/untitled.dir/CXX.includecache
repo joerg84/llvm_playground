@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/jarango/llvm_ir/main.cpp
+llvm/Module.h
+/Users/jarango/llvm_ir/llvm/Module.h
+llvm/Function.h
+/Users/jarango/llvm_ir/llvm/Function.h
+llvm/PassManager.h
+/Users/jarango/llvm_ir/llvm/PassManager.h
+llvm/CallingConv.h
+/Users/jarango/llvm_ir/llvm/CallingConv.h
+llvm/Analysis/Verifier.h
+/Users/jarango/llvm_ir/llvm/Analysis/Verifier.h
+llvm/Assembly/PrintModulePass.h
+/Users/jarango/llvm_ir/llvm/Assembly/PrintModulePass.h
+llvm/Support/IRBuilder.h
+/Users/jarango/llvm_ir/llvm/Support/IRBuilder.h
+llvm/Support/raw_ostream.h
+/Users/jarango/llvm_ir/llvm/Support/raw_ostream.h
+
